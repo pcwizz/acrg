@@ -1,0 +1,8 @@
+all: src/acrg.c src/main.c src/acrg.h
+	mkdir -p build
+	$(CC) $(CCOPTS) src/acrg.c src/main.c -o build/acrg
+
+clean:
+	rm -rf build
+	rm -rf out
+	rm Makefile
