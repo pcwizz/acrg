@@ -17,7 +17,7 @@ If you are developing:
 `./configure.sh debug`
 
 If you ar efeeling paranoid before you commit or make a pull request you can run afl on it:
-`./fuzz.sh'
+`./fuzz.sh`
 
 ### Defaults
 
@@ -44,4 +44,4 @@ The program expects Unicode UTF-8 input. For just about every use I see possible
 
 ### Licence
 
-This project is licenced under the (GPLv3)[LICENCE] as this is an educational tool that produce educational tools I highly support forks and contributions and will accept pull requests as long as they aren't completly obsurd.
+This project is licenced under the [GPLv3](LICENCE) as this is an educational tool that produce educational tools I highly support forks and contributions and will accept pull requests as long as they aren't completly obsurd.
